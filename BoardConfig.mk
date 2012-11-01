@@ -96,6 +96,8 @@ endif
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/htc/common
 TARGET_PREBUILT_KERNEL := device/htc/bravo/kernel
+BOARD_CUSTOM_RECOVERY_KEYMAPPING:= ../../device/htc/bravo/recovery/recovery_ui.c
+I_AM_KOUSH := true
 
 # to enable the GPS HAL
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := bravo

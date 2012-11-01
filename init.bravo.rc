@@ -55,6 +55,7 @@ on boot
     setprop ro.ril.fast.dormancy.rule 1
     setprop ro.ril.fd.scron.timeout 4
     setprop ro.ril.fd.scroff.timeout 3
+    setprop ro.squadzone.build 1
 
 # compass/accelerometer daemon
 service akmd /system/bin/akmd
